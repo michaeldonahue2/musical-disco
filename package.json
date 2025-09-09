@@ -1,16 +1,13 @@
 {
-  "feeds": [
-    // EXAMPLES (replace as you like):
-    "https://9to5toys.com/feed/",
-    "https://www.theverge.com/deals/rss/index.xml",
-    "https://www.gamespot.com/feeds/deals/",
-    "https://www.xda-developers.com/tag/deals/rss/"
-  ],
-  "daily_posts": 8,
-  "site": {
-    "title": "Daily Deals & Finds",
-    "tagline": "Fresh finds, quick reads, auto-affiliated.",
-    "url": "https://YOURDOMAIN.com",
-    "brand": "Daily Finds"
+  "name": "auto-affiliate-site",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "node ./src/main.mjs"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "marked": "^12.0.2"
   }
 }
